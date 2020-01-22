@@ -15,6 +15,7 @@ namespace Lab_2._1
                 Console.Write("Enter Length: ");
                 double inputLength = Convert.ToDouble(Console.ReadLine());
 
+
                 Console.Write("Enter Width: ");
                 double inputWidth = Convert.ToDouble(Console.ReadLine());
 
@@ -41,7 +42,7 @@ namespace Lab_2._1
                 {
                     roomSize = "medium-sized";
                 }
-                else if(area > 650)
+                else if(area >= 650)
                 {
                     roomSize = "large-sized";
                 }
