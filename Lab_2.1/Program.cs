@@ -50,8 +50,8 @@ namespace Lab_2._1
                 Console.WriteLine();
 
                 Console.Write("Would you like to continue? (y/n) ");
-                userContinue = Console.ReadLine();
-                userContinue.ToLower();
+                userContinue = Console.ReadLine().ToLower();
+                
 
             } while (userContinue == "y" || userContinue == "yes");
 
